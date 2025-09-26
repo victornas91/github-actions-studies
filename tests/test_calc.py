@@ -1,11 +1,11 @@
-from src.calc import sum, subtract
+from src import calc 
 
 
 def test_sum():
-    assert sum(2, 3) == 5
-    assert sum(-1, 1) == 0
+    assert calc.sum(2, 3) == 5
+    assert calc.sum(-1, 1) == 0
 
 
 def test_subtract():
-    assert subtract(5, 3) == 2
-    assert subtract(0, 4) == -4
+    assert calc.subtract(5, 3) == 2
+    assert calc.subtract(0, 4) == -4
