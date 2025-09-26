@@ -1,4 +1,4 @@
-from src import calc 
+from src import calc
 
 
 def test_sum():
